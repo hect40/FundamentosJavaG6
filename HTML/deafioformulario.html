@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Formulario</title>
+</head>
+
+<body>
+    <form action="" method="get">
+        <h3>Formulario de registro</h3>
+        <br><br>
+        <label for="Nombre"> Nombre: &nbsp;     </label>
+        <input type="text" id="Nombre" name="Nombre" placeholder="Ingresar nombre"><br><br>
+        <label for="Apellido">Apellido:      </label>
+        <input type="text" id="Apellido" name="Apellido" placeholder="Ingresar apellido"><br><br>
+        <label for="">Correo:&nbsp;&nbsp;       </label>
+        <input type="email" id="correo" name="correo" placeholder="Ingresar correo"><br><br>
+        <label for="password">Password   </label>
+        <input type="password" id="password" name="password" placeholder="Ingresar password"><br><br>
+        <label for="password">Confirmar  </label>
+        <input type="password" id="password" name="password" placeholder="Ingresar password"><br><br>
+        <label for="cumpleaños">Cumpleaños   </label>
+        <input type="date" id="fecha" name="cumpleaños"><br><br>
+
+        <input type="radio" id="femenino" name="genero" value="1">
+        <label for="femenino">Femenino</label>
+        <input type="radio" id="masculino" name="genero" value="2">
+        <label for="masculino">Masculino</label>
+        <input type="radio" id="otro" name="genero" value="3">
+        <label for="otro">otro</label><br><br>
+        <h5>Una Breve descripcion de ti:</h5>
+        <br>
+        <textarea id="descripcion" name="descripcion" rows="4" cols="50" placeholder="ingresa algo" maxlength="15" minlength="5"></textarea>
+        <br>
+        <label for="lenguaje"> lenguaje favorito</label>
+        <select name="lenguahes" id="lenguajes">
+            <option value="0">Seleccione</option>
+            <option value="1">Java</option>
+            <option value="2">JavaScript</option>
+            <option value="3">Python</option>
+        </select>
+        <br>
+        <br>
+    </form>
+</body>
+
+</html>

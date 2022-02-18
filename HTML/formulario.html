@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="" method="get">
+        <!--por defaul el metodo es get, envia porla pagaina-->
+        <label for="Nombre">Nombre:        </label>
+        <input type="text" id="Nombre" name="Nombre" placeholder="Ingresar nombre"><br>
+        <label for="Apellido">Apellido:        </label>
+        <input type="text" id="Apellido" name="Apellido" placeholder="Ingresar apellido"><br>
+        <label for="">Correo:</label>
+        <input type="email" id="correo" name="correo" placeholder="Ingresar correo"><br>
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" placeholder="Ingresar password">
+        <br>
+        <!--input radio-->
+        <label for="femenino">Femenino</label>
+        <input type="radio" id="femenino" name="genero" value="1">
+        <br>
+        <input type="radio" id="masculino" name="genero" value="2">
+        <label for="masculino">Masculino</label>
+        <br>
+        <label for="nose">No Se</label>
+        <input type="radio" id="nose" name="genero" value="3">
+        <br>
+        <!--checkbox-->
+        <label for="java">Java</label>
+        <input type="checkbox" id="java" name="lenguaje1" value="1"><br>
+        <label for="JavaScript">JavaScript</label>
+        <input type="checkbox" id="JavaScript" name="lenguaje2" value="2"><br>
+        <label for="Python">Python</label>
+        <input type="checkbox" id="Python" name="lenguaje3" value="3"><br>
+
+        <!-- select-->
+        <label for="lenguaje">Elija su lenguaje favorito</label>
+        <select name="lenguahes" id="lenguajes">
+            <option value="0">Seleccione</option><!--esto puedo no ir-->
+            <option value="1">Java</option>
+            <option value="2">JavaScript</option>
+            <option value="3">Python</option>
+        </select>
+        <br>
+        <!--textarea-->
+        <textarea id="descripcion" name="descripcion" rows="4" cols="50" placeholder="ingresa algo" maxlength="15" minlength="5"></textarea>
+        <br>
+        <input type="hidden" name="modulo" id="modulo" value="1">
+        <!--input oculto-->
+        <br>
+
+        <!--botones-->
+        <input type="button" id="" name="" value="validar">
+        <input type="submit" value="enviar">
+    </form>
+</body>
+
+</html>
