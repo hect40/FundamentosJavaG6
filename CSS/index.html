@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CCS SELECTOR</title>
+    <style>
+        /*comentarios*/
+        /*3 FORMAS DE DAR ESTILO*/
+        /*1 ETIQUETA*/
+        
+        .body {
+            background-image: url(assets\img\IMG_8671.JPG);
+            /*background-size: auto*/
+            ;
+            /* background-color: beige*/
+            ;
+        }
+        
+        P {
+            color: #1a1a86;
+            background-color: blanchedalmond;
+        }
+        /* 2 Clase(.) */
+        
+        div {
+            width: 400px;
+            /*ancho*/
+            height: 500px;
+            /*alto de la pagina*/
+            color: red;
+            background-color: rgb(245, 220, 240);
+        }
+        
+        a {
+            text-decoration: line-through;
+            /*lineas al texto*/
+        }
+        
+        .web {
+            width: 200px;
+        }
+        
+        .parrafo {
+            color: green !important;
+            font-style: italic;
+            font-size: x-large;
+            font-weight: 800;
+            /*grosor*/
+            font-weight: bold;
+            /*negrita*/
+            font-family: 'Courier New', Courier, monospace;
+        }
+        /* 3 estiloforma - id(#): un elementi*/
+        
+        #p3 {
+            color: blueviolet;
+        }
+        
+        #p4 {
+            color: rgb(43, 137, 226);
+            font-style: oblique;
+            width: 100;
+            text-decoration: overline;
+            /*arriba o subre el texto*/
+            text-decoration: underline;
+            /*bajo*/
+            text-decoration: line-through;
+            /*tachado*/
+            text-decoration: dotted;
+        }
+        
+        #tituloh2 {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h2>titulito</h2>
+        <P>PARRAFO 1</P>
+        <P class="parrafo">PARRAFO 2</P>
+        <P class="parrafo" id="p3">PARRAFO 3</P>
+        <P class="parrafo" id="tituloh2">PARRAFO 4</P>
+        <a href="">texto</a>
+    </div><br>
+    <div>
+        <img id="tituloh2" class="web" src="assets\img\IMG_8671.JPG" alt="" style="flood-opacity: inherit; ">
+    </div>
+</body>
+
+</html>
