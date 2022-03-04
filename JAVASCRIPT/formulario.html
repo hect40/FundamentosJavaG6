@@ -15,8 +15,9 @@
 
         var numero = 10;
         var numero2 = 20;
-        console.log(typeof numero);
-        miJavascript();
+        console.log(typeof numero); //typo de dato
+
+        miJavascript(); //llamado a la funcion
 
         function miJavascript() {
             console.log("Hola mundo", "2", 2);
@@ -34,16 +35,22 @@
 
             //String nombre; Integer numero
             let numero = "asdfwerg";
-            let varnull = null;
-            console.log("hola" + nombre + "tu edad es" + edad);
-            console.log(`hola${nombre}tu edad es${edad}`);
             numero = 12;
+            let nodefinida; //undefined
+            let varnull = null;
+            console.log(nodefinida, varnull);
+
+            console.log("hola " + nombre + ", tu edad es: " + edad);
+            console.log(`hola ${nombre}, tu edad es: ${edad * "a"}`); //backtick, ${} placeholder
         }
 
-        function validarFormulario() {
+        let x = function validarFormulario() {
+            //miJavascript();
 
 
         }
+
+        let z = x(); // let z = validarFormulario();
     </script>
 </head>
 
@@ -110,3 +117,5 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
+
+</html>
